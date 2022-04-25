@@ -1,0 +1,94 @@
+
+
+######################## Start[1] Dump VFS Trace File ########################
+                  file count total = [7]
+                  file size  total = [51624] Bytes, ~= [50.414] KB, ~= [0.049] MB
+                  file write count = [138]
+                sync() total count = [1]
+           file sync() total count = [40]
+    Maybe file system expend size <= [2949120] Bytes, ~= [2880.000] KB, ~= [2.812] MB
+                     Now Boot Time = [137s.757000226ns]
+###########################################################################
+
+File[1] name:[/dt/log/dt/diag/rob.db-journal], 
+  |_File f_flags[0x20002], [O_RDWR,O_LARGEFILE,]
+  |_Write:[25848]Bytes, ~[25.242]KB, ~[0.024]MB, Count:[78], File sync():[12]
+  |_Time Gap: Min[0s.000009615ns],  Max[0s.009710153ns], Avg[0s.000585487ns], Span[0s.045082539ns]
+  |_Moment: First[135s.102796764ns], Last[135s.147879303ns]
+  |___EXE Name:[/vendor/bin/diagserver], Comm:[DiagsrvRobProc],
+     |___Write:[25848]Bytes, ~[25.242]KB, ~[0.024]MB, count:[78], File sync():[12]
+     |___Time Gap: Min[0s.000009615ns], Max[0s.009710153ns], Avg[0s.000585487ns], Span[0s.045082539ns]
+     |___Moment: First[135s.102796764ns], Last[135s.147879303ns]
+
+File[2] name:[/dt/log/dt/diag/rob.db], 
+  |_File f_flags[0x20002], [O_RDWR,O_LARGEFILE,]
+  |_Write:[23552]Bytes, ~[23.000]KB, ~[0.022]MB, Count:[23], File sync():[6]
+  |_Time Gap: Min[0s.000009539ns],  Max[0s.011342000ns], Avg[0s.001713440ns], Span[0s.037695692ns]
+  |_Moment: First[135s.110982380ns], Last[135s.148678072ns]
+  |___EXE Name:[/vendor/bin/diagserver], Comm:[DiagsrvRobProc],
+     |___Write:[23552]Bytes, ~[23.000]KB, ~[0.022]MB, count:[23], File sync():[6]
+     |___Time Gap: Min[0s.000009539ns], Max[0s.011342000ns], Avg[0s.001713440ns], Span[0s.037695692ns]
+     |___Moment: First[135s.110982380ns], Last[135s.148678072ns]
+
+File[3] name:[/navi/map/mcarnavi/loge/7.log], 
+  |_File f_flags[0x20401], [O_WRONLY,O_APPEND,O_LARGEFILE,]
+  |_Write:[1464]Bytes, ~[1.429]KB, ~[0.001]MB, Count:[18], File sync():[0]
+  |_Time Gap: Min[0s.000196308ns],  Max[1s.008079230ns], Avg[0s.000647067ns], Span[2s.011000154ns]
+  |_Moment: First[134s.957436380ns], Last[136s.968436534ns]
+  |___EXE Name:[/system/bin/app_process64], Comm:[Thread-3],
+     |___Write:[1464]Bytes, ~[1.429]KB, ~[0.001]MB, count:[18], File sync():[0]
+     |___Time Gap: Min[0s.000196308ns], Max[1s.008079230ns], Avg[0s.000647067ns], Span[2s.011000154ns]
+     |___Moment: First[134s.957436380ns], Last[136s.968436534ns]
+
+File[4] name:[/data/vendor/iauto_errlog/errlog], 
+  |_File f_flags[0x20401], [O_WRONLY,O_APPEND,O_LARGEFILE,]
+  |_Write:[664]Bytes, ~[0.648]KB, ~[0.000]MB, Count:[7], File sync():[0]
+  |_Time Gap: Min[0s.000140462ns],  Max[0s.967200769ns], Avg[0s.031666294ns], Span[1s.189997769ns]
+  |_Moment: First[135s.025605072ns], Last[136s.215602841ns]
+  |___EXE Name:[/product/bin/logcatd_errlog], Comm:[logcatd_errlog],
+     |___Write:[664]Bytes, ~[0.648]KB, ~[0.000]MB, count:[7], File sync():[0]
+     |___Time Gap: Min[0s.000140462ns], Max[0s.967200769ns], Avg[0s.031666294ns], Span[1s.189997769ns]
+     |___Moment: First[135s.025605072ns], Last[136s.215602841ns]
+
+File[5] name:[/dt/log/dt/diag/rob_occur_times_forceaccess.bat], 
+  |_File f_flags[0x20002], [O_RDWR,O_LARGEFILE,]
+  |_Write:[96]Bytes, ~[0.093]KB, ~[0.000]MB, Count:[12], File sync():[12]
+  |_Time Gap: Min[0s.000557769ns],  Max[0s.014948461ns], Avg[0s.003301615ns], Span[0s.036317769ns]
+  |_Moment: First[135s.118656841ns], Last[135s.154974610ns]
+  |___EXE Name:[/vendor/bin/diagserver], Comm:[DiagsrvRobProc],
+     |___Write:[96]Bytes, ~[0.093]KB, ~[0.000]MB, count:[12], File sync():[12]
+     |___Time Gap: Min[0s.000557769ns], Max[0s.014948461ns], Avg[0s.003301615ns], Span[0s.036317769ns]
+     |___Moment: First[135s.118656841ns], Last[135s.154974610ns]
+
+File[6] name:[/navi/map/mcarnavi/userdata/http_log/http-7.log], 
+  |_File f_flags[0x20001], [O_WRONLY,O_LARGEFILE,]
+  |_Write:[0]Bytes, ~[0.000]KB, ~[0.000]MB, Count:[0], File sync():[4]
+  |_Time Gap: Min[0s.000000000ns],  Max[0s.000000000ns], Avg[0s.000000000ns], Span[0s.000000000ns]
+  |_Moment: First[0s.000000000ns], Last[0s.000000000ns]
+  |___EXE Name:[/system/bin/app_process64], Comm:[roid.mapbarnavi],
+     |___Write:[0]Bytes, ~[0.000]KB, ~[0.000]MB, count:[0], File sync():[4]
+     |___Time Gap: Min[0s.000000000ns], Max[0s.000000000ns], Avg[0s.000000000ns], Span[0s.000000000ns]
+     |___Moment: First[0s.000000000ns], Last[0s.000000000ns]
+
+File[7] name:[/dt/log/dt/diag], 
+  |_File f_flags[0x20000], [O_RDONLY,O_LARGEFILE,]
+  |_Write:[0]Bytes, ~[0.000]KB, ~[0.000]MB, Count:[0], File sync():[6]
+  |_Time Gap: Min[0s.000000000ns],  Max[0s.000000000ns], Avg[0s.000000000ns], Span[0s.000000000ns]
+  |_Moment: First[0s.000000000ns], Last[0s.000000000ns]
+  |___EXE Name:[/vendor/bin/diagserver], Comm:[DiagsrvRobProc],
+     |___Write:[0]Bytes, ~[0.000]KB, ~[0.000]MB, count:[0], File sync():[6]
+     |___Time Gap: Min[0s.000000000ns], Max[0s.000000000ns], Avg[0s.000000000ns], Span[0s.000000000ns]
+     |___Moment: First[0s.000000000ns], Last[0s.000000000ns]
+
+
+
+######################## End[1] Dump VFS Trace File ########################
+                  file count total = [7]
+                  file size  total = [51624] Bytes, ~= [50.414] KB, ~= [0.049] MB
+                  file write count = [138]
+                sync() total count = [1]
+           file sync() total count = [40]
+    Maybe file system expend size <= [2949120] Bytes, ~= [2880.000] KB, ~= [2.812] MB
+                     Now Boot Time = [137s.757069303ns]
+###########################################################################
+

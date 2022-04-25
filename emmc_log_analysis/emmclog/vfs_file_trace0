@@ -1,0 +1,164 @@
+
+
+######################## Start[2] Dump VFS Trace File ########################
+                  file count total = [14]
+                  file size  total = [211508] Bytes, ~= [206.550] KB, ~= [0.201] MB
+                  file write count = [204]
+                sync() total count = [1]
+           file sync() total count = [45]
+    Maybe file system expend size <= [3317760] Bytes, ~= [3240.000] KB, ~= [3.164] MB
+                     Now Boot Time = [77s.023435003ns]
+###########################################################################
+
+File[1] name:[/data/data/com.android.providers.contacts/databases/contacts2.db], 
+  |_File f_flags[0x20002], [O_RDWR,O_LARGEFILE,]
+  |_Write:[122880]Bytes, ~[120.000]KB, ~[0.117]MB, Count:[30], File sync():[1]
+  |_Time Gap: Min[0s.000030153ns],  Max[0s.000101000ns], Avg[0s.000034042ns], Span[0s.000987231ns]
+  |_Moment: First[74s.628533849ns], Last[74s.629521080ns]
+  |___EXE Name:[/system/bin/app_process64], Comm:[d.process.acore],
+     |___Write:[122880]Bytes, ~[120.000]KB, ~[0.117]MB, count:[30], File sync():[1]
+     |___Time Gap: Min[0s.000030153ns], Max[0s.000101000ns], Avg[0s.000034042ns], Span[0s.000987231ns]
+     |___Moment: First[74s.628533849ns], Last[74s.629521080ns]
+
+File[2] name:[/dt/log/dt/diag/rob.db-journal], 
+  |_File f_flags[0x20002], [O_RDWR,O_LARGEFILE,]
+  |_Write:[25848]Bytes, ~[25.242]KB, ~[0.024]MB, Count:[78], File sync():[12]
+  |_Time Gap: Min[0s.000009615ns],  Max[0s.011459462ns], Avg[0s.000545664ns], Span[0s.042016153ns]
+  |_Moment: First[73s.636911542ns], Last[73s.678927695ns]
+  |___EXE Name:[/vendor/bin/diagserver], Comm:[DiagsrvRobProc],
+     |___Write:[25848]Bytes, ~[25.242]KB, ~[0.024]MB, count:[78], File sync():[12]
+     |___Time Gap: Min[0s.000009615ns], Max[0s.011459462ns], Avg[0s.000545664ns], Span[0s.042016153ns]
+     |___Moment: First[73s.636911542ns], Last[73s.678927695ns]
+
+File[3] name:[/data/data/com.android.providers.contacts/databases/calllog.db], 
+  |_File f_flags[0x20002], [O_RDWR,O_LARGEFILE,]
+  |_Write:[24576]Bytes, ~[24.000]KB, ~[0.023]MB, Count:[6], File sync():[1]
+  |_Time Gap: Min[0s.000032385ns],  Max[0s.000086539ns], Avg[0s.000052677ns], Span[0s.000263385ns]
+  |_Moment: First[74s.972091311ns], Last[74s.972354696ns]
+  |___EXE Name:[/system/bin/app_process64], Comm:[d.process.acore],
+     |___Write:[24576]Bytes, ~[24.000]KB, ~[0.023]MB, count:[6], File sync():[1]
+     |___Time Gap: Min[0s.000032385ns], Max[0s.000086539ns], Avg[0s.000052677ns], Span[0s.000263385ns]
+     |___Moment: First[74s.972091311ns], Last[74s.972354696ns]
+
+File[4] name:[/dt/log/dt/diag/rob.db], 
+  |_File f_flags[0x20002], [O_RDWR,O_LARGEFILE,]
+  |_Write:[23552]Bytes, ~[23.000]KB, ~[0.022]MB, Count:[23], File sync():[6]
+  |_Time Gap: Min[0s.000009307ns],  Max[0s.013419770ns], Avg[0s.001722947ns], Span[0s.037904846ns]
+  |_Moment: First[73s.641642388ns], Last[73s.679547234ns]
+  |___EXE Name:[/vendor/bin/diagserver], Comm:[DiagsrvRobProc],
+     |___Write:[23552]Bytes, ~[23.000]KB, ~[0.022]MB, count:[23], File sync():[6]
+     |___Time Gap: Min[0s.000009307ns], Max[0s.013419770ns], Avg[0s.001722947ns], Span[0s.037904846ns]
+     |___Moment: First[73s.641642388ns], Last[73s.679547234ns]
+
+File[5] name:[/data/misc/profiles/cur/0/com.autoai.online.music/primary.prof], 
+  |_File f_flags[0x28001], [O_WRONLY,]
+  |_Write:[7552]Bytes, ~[7.375]KB, ~[0.007]MB, Count:[5], File sync():[0]
+  |_Time Gap: Min[0s.000035769ns],  Max[0s.002025462ns], Avg[0s.000561096ns], Span[0s.002244384ns]
+  |_Moment: First[73s.487655619ns], Last[73s.489900003ns]
+  |___EXE Name:[/system/bin/app_process64], Comm:[Profile Saver],
+     |___Write:[7552]Bytes, ~[7.375]KB, ~[0.007]MB, count:[5], File sync():[0]
+     |___Time Gap: Min[0s.000035769ns], Max[0s.002025462ns], Avg[0s.000561096ns], Span[0s.002244384ns]
+     |___Moment: First[73s.487655619ns], Last[73s.489900003ns]
+
+File[6] name:[/data/misc/profiles/cur/0/com.iauto.mediaserver/primary.prof], 
+  |_File f_flags[0x28001], [O_WRONLY,]
+  |_Write:[2553]Bytes, ~[2.493]KB, ~[0.002]MB, Count:[5], File sync():[0]
+  |_Time Gap: Min[0s.000070385ns],  Max[0s.001469307ns], Avg[0s.000439057ns], Span[0s.001756231ns]
+  |_Moment: First[74s.281179080ns], Last[74s.282935311ns]
+  |___EXE Name:[/system/bin/app_process64], Comm:[Profile Saver],
+     |___Write:[2553]Bytes, ~[2.493]KB, ~[0.002]MB, count:[5], File sync():[0]
+     |___Time Gap: Min[0s.000070385ns], Max[0s.001469307ns], Avg[0s.000439057ns], Span[0s.001756231ns]
+     |___Moment: First[74s.281179080ns], Last[74s.282935311ns]
+
+File[7] name:[/navi/map/mcarnavi/loge/6.log], 
+  |_File f_flags[0x20401], [O_WRONLY,O_APPEND,O_LARGEFILE,]
+  |_Write:[2440]Bytes, ~[2.382]KB, ~[0.002]MB, Count:[30], File sync():[0]
+  |_Time Gap: Min[0s.000199231ns],  Max[1s.001882846ns], Avg[0s.000100403ns], Span[4s.002911692ns]
+  |_Moment: First[72s.991415542ns], Last[76s.994327234ns]
+  |___EXE Name:[/system/bin/app_process64], Comm:[Thread-3],
+     |___Write:[2440]Bytes, ~[2.382]KB, ~[0.002]MB, count:[30], File sync():[0]
+     |___Time Gap: Min[0s.000199231ns], Max[1s.001882846ns], Avg[0s.000100403ns], Span[4s.002911692ns]
+     |___Moment: First[72s.991415542ns], Last[76s.994327234ns]
+
+File[8] name:[/data/vendor/iauto_errlog/errlog], 
+  |_File f_flags[0x20401], [O_WRONLY,O_APPEND,O_LARGEFILE,]
+  |_Write:[1786]Bytes, ~[1.744]KB, ~[0.001]MB, Count:[14], File sync():[0]
+  |_Time Gap: Min[0s.000066923ns],  Max[1s.040975846ns], Avg[0s.023872792ns], Span[2s.310346308ns]
+  |_Moment: First[74s.023450234ns], Last[76s.333796542ns]
+  |___EXE Name:[/product/bin/logcatd_errlog], Comm:[logcatd_errlog],
+     |___Write:[1786]Bytes, ~[1.744]KB, ~[0.001]MB, count:[14], File sync():[0]
+     |___Time Gap: Min[0s.000066923ns], Max[1s.040975846ns], Avg[0s.023872792ns], Span[2s.310346308ns]
+     |___Moment: First[74s.023450234ns], Last[76s.333796542ns]
+
+File[9] name:[/navi/map/mcarnavi/userdata/http_log/http-6.log], 
+  |_File f_flags[0x20001], [O_WRONLY,O_LARGEFILE,]
+  |_Write:[225]Bytes, ~[0.219]KB, ~[0.000]MB, Count:[1], File sync():[4]
+  |_Time Gap: Min[0s.000000000ns],  Max[0s.000000000ns], Avg[0s.000000000ns], Span[0s.000000000ns]
+  |_Moment: First[74s.042284849ns], Last[74s.042284849ns]
+  |___EXE Name:[/system/bin/app_process64], Comm:[roid.mapbarnavi],
+     |___Write:[225]Bytes, ~[0.219]KB, ~[0.000]MB, count:[1], File sync():[4]
+     |___Time Gap: Min[0s.000000000ns], Max[0s.000000000ns], Avg[0s.000000000ns], Span[0s.000000000ns]
+     |___Moment: First[74s.042284849ns], Last[74s.042284849ns]
+
+File[10] name:[/dt/log/dt/diag/rob_occur_times_forceaccess.bat], 
+  |_File f_flags[0x20002], [O_RDWR,O_LARGEFILE,]
+  |_Write:[96]Bytes, ~[0.093]KB, ~[0.000]MB, Count:[12], File sync():[12]
+  |_Time Gap: Min[0s.000574231ns],  Max[0s.012982154ns], Avg[0s.003321104ns], Span[0s.036532154ns]
+  |_Moment: First[73s.647556849ns], Last[73s.684089003ns]
+  |___EXE Name:[/vendor/bin/diagserver], Comm:[DiagsrvRobProc],
+     |___Write:[96]Bytes, ~[0.093]KB, ~[0.000]MB, count:[12], File sync():[12]
+     |___Time Gap: Min[0s.000574231ns], Max[0s.012982154ns], Avg[0s.003321104ns], Span[0s.036532154ns]
+     |___Moment: First[73s.647556849ns], Last[73s.684089003ns]
+
+File[11] name:[/dt/log/dt/diag], 
+  |_File f_flags[0x20000], [O_RDONLY,O_LARGEFILE,]
+  |_Write:[0]Bytes, ~[0.000]KB, ~[0.000]MB, Count:[0], File sync():[6]
+  |_Time Gap: Min[0s.000000000ns],  Max[0s.000000000ns], Avg[0s.000000000ns], Span[0s.000000000ns]
+  |_Moment: First[0s.000000000ns], Last[0s.000000000ns]
+  |___EXE Name:[/vendor/bin/diagserver], Comm:[DiagsrvRobProc],
+     |___Write:[0]Bytes, ~[0.000]KB, ~[0.000]MB, count:[0], File sync():[6]
+     |___Time Gap: Min[0s.000000000ns], Max[0s.000000000ns], Avg[0s.000000000ns], Span[0s.000000000ns]
+     |___Moment: First[0s.000000000ns], Last[0s.000000000ns]
+
+File[12] name:[/data/data/com.android.providers.contacts/databases/contacts2.db-wal], 
+  |_File f_flags[0x20002], [O_RDWR,O_LARGEFILE,]
+  |_Write:[0]Bytes, ~[0.000]KB, ~[0.000]MB, Count:[0], File sync():[1]
+  |_Time Gap: Min[0s.000000000ns],  Max[0s.000000000ns], Avg[0s.000000000ns], Span[0s.000000000ns]
+  |_Moment: First[0s.000000000ns], Last[0s.000000000ns]
+  |___EXE Name:[/system/bin/app_process64], Comm:[d.process.acore],
+     |___Write:[0]Bytes, ~[0.000]KB, ~[0.000]MB, count:[0], File sync():[1]
+     |___Time Gap: Min[0s.000000000ns], Max[0s.000000000ns], Avg[0s.000000000ns], Span[0s.000000000ns]
+     |___Moment: First[0s.000000000ns], Last[0s.000000000ns]
+
+File[13] name:[/data/data/com.android.providers.contacts/databases], 
+  |_File f_flags[0x20000], [O_RDONLY,O_LARGEFILE,]
+  |_Write:[0]Bytes, ~[0.000]KB, ~[0.000]MB, Count:[0], File sync():[1]
+  |_Time Gap: Min[0s.000000000ns],  Max[0s.000000000ns], Avg[0s.000000000ns], Span[0s.000000000ns]
+  |_Moment: First[0s.000000000ns], Last[0s.000000000ns]
+  |___EXE Name:[/system/bin/app_process64], Comm:[d.process.acore],
+     |___Write:[0]Bytes, ~[0.000]KB, ~[0.000]MB, count:[0], File sync():[1]
+     |___Time Gap: Min[0s.000000000ns], Max[0s.000000000ns], Avg[0s.000000000ns], Span[0s.000000000ns]
+     |___Moment: First[0s.000000000ns], Last[0s.000000000ns]
+
+File[14] name:[/data/data/com.android.providers.contacts/databases/calllog.db-wal], 
+  |_File f_flags[0x20002], [O_RDWR,O_LARGEFILE,]
+  |_Write:[0]Bytes, ~[0.000]KB, ~[0.000]MB, Count:[0], File sync():[1]
+  |_Time Gap: Min[0s.000000000ns],  Max[0s.000000000ns], Avg[0s.000000000ns], Span[0s.000000000ns]
+  |_Moment: First[0s.000000000ns], Last[0s.000000000ns]
+  |___EXE Name:[/system/bin/app_process64], Comm:[d.process.acore],
+     |___Write:[0]Bytes, ~[0.000]KB, ~[0.000]MB, count:[0], File sync():[1]
+     |___Time Gap: Min[0s.000000000ns], Max[0s.000000000ns], Avg[0s.000000000ns], Span[0s.000000000ns]
+     |___Moment: First[0s.000000000ns], Last[0s.000000000ns]
+
+
+
+######################## End[2] Dump VFS Trace File ########################
+                  file count total = [14]
+                  file size  total = [211508] Bytes, ~= [206.550] KB, ~= [0.201] MB
+                  file write count = [204]
+                sync() total count = [1]
+           file sync() total count = [45]
+    Maybe file system expend size <= [3317760] Bytes, ~= [3240.000] KB, ~= [3.164] MB
+                     Now Boot Time = [77s.023557696ns]
+###########################################################################
+
